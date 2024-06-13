@@ -11,7 +11,7 @@ const MyJobs = () => {
     const { isPending, isError, error, data: jobs } = useQuery({
         queryKey: ['jobs'],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/jobs`)
+            const res = await fetch(`https://gofind-server.vercel.app/jobs`)
             return res.json();
         }
     })
@@ -33,9 +33,8 @@ const MyJobs = () => {
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
             if (result.isConfirmed) {
-                axios.delete(`http://localhost:5000/jobs/${_id}`)
+                axios.delete(`https://gofind-server.vercel.app/jobs/${_id}`)
                     .then(res => {
-                        console.log(res);
                         if (res.data.deletedCount > 0) {
                             Swal.fire({
                                 title: "Deleted!",

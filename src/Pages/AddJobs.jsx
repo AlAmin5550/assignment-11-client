@@ -38,9 +38,9 @@ const AddJobs = () => {
         const industry = form.industry.value;
         const companyWebsite = form.companyWebsite.value;
         const job = { jobTitle, companyName, companyBanner, location, jobDescription, jobRequirements, employmentType, salaryRange, applicationDeadline, contactEmail, companyWebsite, datePosted, experienceLevel, industry, benefits }
-        axios.post('http://localhost:5000/jobs',job)
-        .then(res => {
-            console.log(res.data)
+        axios.post('https://gofind-server.vercel.app/jobs',job)
+        .then(() => {
+            // console.log(res.data)
             toast.success('Successfully uploaded')
             form.reset();
         })

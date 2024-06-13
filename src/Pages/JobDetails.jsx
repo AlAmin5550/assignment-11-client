@@ -14,7 +14,7 @@ const JobDetails = () => {
     const { isPending, isError, error, data: job } = useQuery({
         queryKey: ['job'],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/jobs/${id}`)
+            const res = await fetch(`https://gofind-server.vercel.app/jobs/${id}`)
             return res.json();
         }
     })
@@ -35,7 +35,6 @@ const JobDetails = () => {
         const email = form.email.value;
         const resume = form.resume.value;
         const appliedJobId = _id;
-        console.log(name, email, resume);
         if (email == contactEmail) {
             return toast.error('Unsuccessful request.')
         }
@@ -45,15 +44,13 @@ const JobDetails = () => {
         const appliedJob = { appliedJobId, name, email, resume, jobTitle, companyName, companyBanner, employmentType, location, salaryRange }
 
 
-        axios.post('http://localhost:5000/applied', appliedJob)
-            .then((result) => {
-                console.log(result)
+        axios.post('https://gofind-server.vercel.app/applied', appliedJob)
+            .then(() => {
                 toast.success('Successfully Added to list')
                 form.reset();
 
             }).catch((err) => {
-                console.log(err.message)
-
+                toast.error(err.message);
             });
     }
     return (

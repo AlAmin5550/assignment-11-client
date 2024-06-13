@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../Providers/AuthProvider";
 
 const axiosSecure = axios.create({
-    baseURL: 'http://localhost:5000/',
+    baseURL: 'https://gofind-server.vercel.app/',
     withCredentials: true,
 })
 const useAxiosSecure = () => {
@@ -14,14 +14,14 @@ const useAxiosSecure = () => {
         axiosSecure.interceptors.response.use(res=>{
             return res;
         },error=>{
-            console.log('Error tracked in :', error.response)
+            // console.log('Error tracked in :', error.response)
             if(error.response.status == 401 || error.response.status == 403){
-                console.log('logout the user');
+                // console.log('logout the user');
                 logOut()
                 .then(() => {
                     navigate('/login')
-                }).catch((err) => {
-                    console.log(err)
+                }).catch(() => {
+                    // console.log(err)
                 });
             }
         })

@@ -43,21 +43,21 @@ const AuthProvider = ({ children }) => {
     }
     useEffect(() => {
         const unSubscribe = onAuthStateChanged(auth, currentUser => {
-            console.log('Observing current user', currentUser);
+            // console.log('Observing current user', currentUser);
             const userEmail = currentUser?.email || user?.email;
             const loggedUser = { email: userEmail }
             setUser(currentUser);
             setLoading(false);
             if(currentUser){
-                axios.post('http://localhost:5000/jwt',loggedUser,{withCredentials:true})
-                .then(res=>{
-                    console.log(res.data)
+                axios.post('https://gofind-server.vercel.app/jwt',loggedUser,{withCredentials:true})
+                .then(()=>{
+                    // console.log(res.data)
                 })
             }
             else{
-                axios.post('http://localhost:5000/logout',loggedUser,{withCredentials: true})
-                .then(res=> {
-                    console.log(res.data)
+                axios.post('https://gofind-server.vercel.app/logout',loggedUser,{withCredentials: true})
+                .then(()=> {
+                    // console.log(res.data)
                 })
             }
         });

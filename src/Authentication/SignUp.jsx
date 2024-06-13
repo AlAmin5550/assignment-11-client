@@ -14,7 +14,6 @@ const SignUp = () => {
         const email = form.email.value;
         const photo = form.photo.value;
         const password = form.password.value;
-        console.log(name, email, photo, password);
         if (password.length < 6) {
             toast.error('Password should contain 6 characters with uppercase and lowercase letters');
             return;
@@ -25,7 +24,6 @@ const SignUp = () => {
         }
         createUser(email, password)
             .then((result) => {
-                console.log(result);
                 // update profile
                 updateProfile(result.user, {
                     displayName: name, photoURL: photo
@@ -39,12 +37,11 @@ const SignUp = () => {
     }
     const handleGoogle = () => {
         GoogleSignUp()
-            .then((result) => {
-                const user = result.user;
-                console.log(user)
+            .then(() => {
+                toast.success('Successfully Signed up!');
 
             }).catch((err) => {
-                toast.error(err.message)
+                toast.error(err.message);
 
             });
 

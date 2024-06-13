@@ -10,7 +10,7 @@ const AllJobs = () => {
     // const { isPending, isError, error, data: jobs } = useQuery({
     //     queryKey: ['jobs'],
     //     queryFn: async () => {
-    //         const res = await fetch(`http://localhost:5000/jobs`)
+    //         const res = await fetch(`https://gofind-server.vercel.app/jobs`)
     //         return res.json();
     //     }
     // })

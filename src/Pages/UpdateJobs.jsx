@@ -18,7 +18,7 @@ const UpdateJobs = () => {
     const { isPending, isError, error, data: job } = useQuery({
         queryKey: ['job'],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/jobs/${id}`)
+            const res = await fetch(`https://gofind-server.vercel.app/jobs/${id}`)
             return res.json();
         }
     })
@@ -58,9 +58,8 @@ const UpdateJobs = () => {
         const industry = form.industry.value;
         const companyWebsite = form.companyWebsite.value;
         const job = { jobTitle, companyName, companyBanner, location, jobDescription, jobRequirements, employmentType, salaryRange, applicationDeadline, contactEmail, companyWebsite, datePosted, experienceLevel, industry, benefits }
-        axios.put(`http://localhost:5000/jobs/${id}`, job)
-            .then(res => {
-                console.log(res.data)
+        axios.put(`https://gofind-server.vercel.app/jobs/${id}`, job)
+            .then(() => {
                 toast.success('Successfully uploaded')
                 form.reset();
                 navigate("/myJobs")

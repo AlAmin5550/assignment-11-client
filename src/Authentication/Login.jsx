@@ -14,27 +14,22 @@ const Login = () => {
         const form = e.target;
         const email = form.email.value;
         const password = form.password.value;
-        console.log(email, password);
         signIn(email, password)
-            .then((result) => {
-                const user = result.user;
-                console.log(user);
+            .then(() => {
                 toast.success('Successfully Logged in!');
-                navigate(location?.state? location?.state:"/")
+                navigate(location?.state ? location?.state : "/")
 
-            }).catch((err) => {
-                console.log(err.message)
-            });
+            }).catch(err => {
+                toast.error(err.message)
+            })
     }
     const handleGoogleSignIn = () => {
         googleSignIn()
-            .then((result) => {
-                const user = result.user;
-                console.log(user);
+            .then(() => {
                 toast.success('Successfully Logged in!');
 
             }).catch((err) => {
-                console.log(err.message)
+                toast.error(err.message)
 
 
             });
