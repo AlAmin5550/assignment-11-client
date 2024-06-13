@@ -1,0 +1,231 @@
+[
+    {
+        "jobTitle": "Marketing Manager",
+        "companyName": "Tech Innovators Inc.",
+        "companyBanner": "https://i.ibb.co/pLxzrDk/taringa-3984402.png",
+        "location": "New York, NY",
+        "jobDescription": "We are looking for a highly skilled Software Engineer to join our team. The ideal candidate will have a passion for Marketing and a proven track record in Mid-Level positions. Responsibilities include developing and implementing strategies, collaborating with cross-functional teams, and ensuring the successful completion of projects. If you are driven and ambitious, we would love to hear from you.",
+        "jobRequirements": [
+            "Bachelor's degree in relevant field",
+            "3+ years of experience",
+            "Proficiency in relevant software and tools",
+            "Strong analytical and problem-solving skills",
+            "Excellent communication and teamwork abilities"
+        ],
+        "employmentType": "Full-Time",
+        "salaryRange": "$60k - $110k",
+        "applicationDeadline": "2024-09-02",
+        "contactEmail": "hr@techinnovatorsinc.com",
+        "companyWebsite": "https://techinnovatorsinc.com",
+        "datePosted": "2024-04-15",
+        "experienceLevel": "Mid-Level",
+        "industry": "Marketing",
+        "benefits": [
+            "Health insurance",
+            "401(k) matching",
+            "Paid time off",
+            "Flexible working hours",
+            "Professional development opportunities"
+        ]
+    },
+    {
+        "jobTitle": "Data Scientist",
+        "companyName": "Creative Solutions LLC",
+        "companyBanner": "https://i.ibb.co/8mg4VB9/compass-3288244.png",
+        "location": "Chicago, IL",
+        "jobDescription": "We are looking for a highly skilled Marketing Manager to join our team. The ideal candidate will have a passion for Data Science and a proven track record in Senior-Level positions. Responsibilities include developing and implementing strategies, collaborating with cross-functional teams, and ensuring the successful completion of projects. If you are driven and ambitious, we would love to hear from you.",
+        "jobRequirements": [
+            "Bachelor's degree in relevant field",
+            "5+ years of experience",
+            "Proficiency in relevant software and tools",
+            "Strong analytical and problem-solving skills",
+            "Excellent communication and teamwork abilities"
+        ],
+        "employmentType": "Hybrid",
+        "salaryRange": "$70k - $130k",
+        "applicationDeadline": "2024-10-20",
+        "contactEmail": "hr@creativesolutionsllc.com",
+        "companyWebsite": "https://creativesolutionsllc.com",
+        "datePosted": "2024-03-25",
+        "experienceLevel": "Senior-Level",
+        "industry": "Data Science",
+        "benefits": [
+            "Health insurance",
+            "Remote work options",
+            "Gym membership",
+            "Professional development funds",
+            "Stock options"
+        ]
+    },
+    {
+        "jobTitle": "Product Manager",
+        "companyName": "Data Wizards Co.",
+        "companyBanner": "https://i.ibb.co/0mTzF70/egypt-pyramid-12194612.png",
+        "location": "Seattle, WA",
+        "jobDescription": "We are looking for a highly skilled Data Scientist to join our team. The ideal candidate will have a passion for Product Management and a proven track record in Entry-Level positions. Responsibilities include developing and implementing strategies, collaborating with cross-functional teams, and ensuring the successful completion of projects. If you are driven and ambitious, we would love to hear from you.",
+        "jobRequirements": [
+            "Bachelor's degree in relevant field",
+            "1+ years of experience",
+            "Proficiency in relevant software and tools",
+            "Strong analytical and problem-solving skills",
+            "Excellent communication and teamwork abilities"
+        ],
+        "employmentType": "Part-Time",
+        "salaryRange": "$50k - $90k",
+        "applicationDeadline": "2024-11-12",
+        "contactEmail": "hr@datawizardsco.com",
+        "companyWebsite": "https://datawizardsco.com",
+        "datePosted": "2024-05-08",
+        "experienceLevel": "Entry-Level",
+        "industry": "Product Management",
+        "benefits": [
+            "Comprehensive health plan",
+            "401(k)",
+            "Unlimited vacation",
+            "Remote working flexibility",
+            "Yearly bonus"
+        ]
+    },
+    {
+        "jobTitle": "Graphic Designer",
+        "companyName": "Product Pioneers Ltd.",
+        "companyBanner": "https://i.ibb.co/tQbGP7X/petals-587850.png",
+        "location": "San Francisco, CA",
+        "jobDescription": "We are looking for a highly skilled Product Manager to join our team. The ideal candidate will have a passion for Design and a proven track record in Mid-Level positions. Responsibilities include developing and implementing strategies, collaborating with cross-functional teams, and ensuring the successful completion of projects. If you are driven and ambitious, we would love to hear from you.",
+        "jobRequirements": [
+            "Bachelor's degree in relevant field",
+            "3+ years of experience",
+            "Proficiency in relevant software and tools",
+            "Strong analytical and problem-solving skills",
+            "Excellent communication and teamwork abilities"
+        ],
+        "employmentType": "Remote",
+        "salaryRange": "$70k - $120k",
+        "applicationDeadline": "2024-08-30",
+        "contactEmail": "hr@productpioneersltd.com",
+        "companyWebsite": "https://productpioneersltd.com",
+        "datePosted": "2024-06-20",
+        "experienceLevel": "Mid-Level",
+        "industry": "Design",
+        "benefits": [
+            "Health and wellness benefits",
+            "Retirement savings plan",
+            "Paid parental leave",
+            "Flexible schedule",
+            "Career growth opportunities"
+        ]
+    },
+    {
+        "jobTitle": "Software Engineer",
+        "companyName": "Design Masters Studio",
+        "companyBanner": "https://i.ibb.co/0mTzF70/egypt-pyramid-12194612.png",
+        "location": "Austin, TX",
+        "jobDescription": "We are looking for a highly skilled Graphic Designer to join our team. The ideal candidate will have a passion for Technology and a proven track record in Senior-Level positions. Responsibilities include developing and implementing strategies, collaborating with cross-functional teams, and ensuring the successful completion of projects. If you are driven and ambitious, we would love to hear from you.",
+        "jobRequirements": [
+            "Bachelor's degree in relevant field",
+            "5+ years of experience",
+            "Proficiency in relevant software and tools",
+            "Strong analytical and problem-solving skills",
+            "Excellent communication and teamwork abilities"
+        ],
+        "employmentType": "Hybrid",
+        "salaryRange": "$80k - $140k",
+        "applicationDeadline": "2024-12-10",
+        "contactEmail": "hr@designmastersstudio.com",
+        "companyWebsite": "https://designmastersstudio.com",
+        "datePosted": "2024-02-10",
+        "experienceLevel": "Senior-Level",
+        "industry": "Technology",
+        "benefits": [
+            "Health insurance",
+            "401(k) matching",
+            "Paid time off",
+            "Flexible working hours",
+            "Professional development opportunities"
+        ]
+    },
+    {
+        "jobTitle": "Software Engineer",
+        "companyName": "Tech Innovators Inc.",
+        "companyBanner": "https://i.ibb.co/pLxzrDk/taringa-3984402.png",
+        "location": "San Francisco, CA",
+        "jobDescription": "We're seeking a Software Engineer to join our innovative team. You'll develop cutting-edge software solutions, collaborate with talented professionals, and drive technological advancements.",
+        "jobRequirements": [
+            "Bachelor's degree in Computer Science or related field",
+            "Proficiency in Java, Python, or C++",
+            "Experience with agile methodologies",
+            "Strong problem-solving skills"
+        ],
+        "employmentType": "Full-Time",
+        "salaryRange": "$90,000 - $120,000",
+        "applicationDeadline": "2024-07-15",
+        "contactEmail": "hr@techinnovators.com",
+        "companyWebsite": "https://www.techinnovators.com",
+        "datePosted": "2024-06-01",
+        "experienceLevel": "Mid-Level",
+        "industry": "Technology",
+        "benefits": [
+            "Health insurance",
+            "401(k) matching",
+            "Paid time off",
+            "Flexible working hours",
+            "Professional development opportunities"
+        ]
+    },
+    {
+        "jobTitle": "Marketing Manager",
+        "companyName": "Creative Solutions LLC",
+        "companyBanner": "https://i.ibb.co/8mg4VB9/compass-3288244.png",
+        "location": "New York, NY",
+        "jobDescription": "We're looking for a talented Marketing Manager to lead our team. You'll develop and execute marketing strategies, analyze market trends, and drive brand awareness.",
+        "jobRequirements": [
+            "Bachelor's degree in Marketing or related field",
+            "5+ years of marketing experience",
+            "Strong knowledge of SEO, SEM, and social media marketing",
+            "Excellent communication and leadership skills"
+        ],
+        "employmentType": "Full-Time",
+        "salaryRange": "$80,000 - $100,000",
+        "applicationDeadline": "2024-07-20",
+        "contactEmail": "hr@creativesolutions.com",
+        "companyWebsite": "https://www.creativesolutions.com",
+        "datePosted": "2024-06-05",
+        "experienceLevel": "Senior-Level",
+        "industry": "Marketing",
+        "benefits": [
+            "Health insurance",
+            "Remote work options",
+            "Gym membership",
+            "Professional development funds",
+            "Stock options"
+        ]
+    },
+    {
+        "jobTitle": "Product Manager",
+        "companyName": "Product Pioneers Ltd.",
+        "companyBanner": "https://i.ibb.co/tQbGP7X/petals-587850.png",
+        "location": "Austin, TX",
+        "jobDescription": "We're seeking a Product Manager to drive the development of innovative products. You'll collaborate with cross-functional teams to define product strategy and roadmap.",
+        "jobRequirements": [
+            "Bachelor's degree in Business, Engineering, or related field",
+            "3+ years of product management experience",
+            "Strong project management skills",
+            "Excellent communication and leadership abilities"
+        ],
+        "employmentType": "Full-Time",
+        "salaryRange": "$90,000 - $120,000",
+        "applicationDeadline": "2024-07-30",
+        "contactEmail": "hr@productpioneers.com",
+        "companyWebsite": "https://www.productpioneers.com",
+        "datePosted": "2024-06-15",
+        "experienceLevel": "Mid-Level",
+        "industry": "Product Management",
+        "benefits": [
+            "Health insurance",
+            "401(k) with employer match",
+            "Paid time off",
+            "Flexible work schedule",
+            "Career development opportunities"
+        ]
+    }
+]

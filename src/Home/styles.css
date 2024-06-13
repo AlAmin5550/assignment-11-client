@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #ffffff;
+    /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+    
+    font-size: 14px;
+    color: #000;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+  }
+  .satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .allSpots {
+    background-position: 'center center';
+    background-blend-mode: 'multiply';
+    background-size: 'cover'
+
+
+  }
